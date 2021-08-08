@@ -1,0 +1,63 @@
+.container {
+    .click-buttons{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 25px;
+
+        button {
+            width: 250px;
+        }
+    }
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        display: flex;
+        justify-content: space-between;
+        width: 290px;
+        margin-bottom: 5px;
+    }
+
+    .create-btn {
+        display: flex;
+        justify-content: space-around;
+
+        button {
+            width: 290px;
+        }
+    }
+
+}
+
+.view-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.edit-names {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+    label {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.edit-buttons {
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ng-invalid {
+    border: 1px solid red;
+
+    outline-color: red;
+}
